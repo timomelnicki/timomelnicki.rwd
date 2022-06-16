@@ -1,7 +1,10 @@
-$('.center').slick({
+$('.slider').slick({
     centerMode: true,
     centerPadding: '60px',
     slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true,
     responsive: [
       {
         breakpoint: 768,
@@ -9,7 +12,8 @@ $('.center').slick({
           arrows: false,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 3
+          slidesToShow: 3,
+          dots: true,
         }
       },
       {
@@ -18,7 +22,8 @@ $('.center').slick({
           arrows: false,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 1
+          slidesToShow: 1,
+          dots: true,
         }
       }
     ]
