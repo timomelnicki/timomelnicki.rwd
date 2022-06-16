@@ -4,7 +4,11 @@
     max-width: none !important;
 }
 .box{
-    width: 30%;
-    height: 500px;
+    width: 25%;
+    height: 300px;
     padding: 5%;
+}
+.box img{
+    width: 100%;
+    height: auto;
 }
