@@ -3,12 +3,7 @@
     width: 100% !important; 
     max-width: none !important;
 }
-.box{
-    width: 25%;
-    height: 300px;
-    padding: 5%;
-}
 .box img{
-    width: 100%;
+    width: 200px;
     height: auto;
 }
