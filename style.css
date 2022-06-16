@@ -3,7 +3,7 @@
     width: 100% !important; 
     max-width: none !important;
 }
-.slider{
-    width: 100%;
+.slider img{
+    width: auto;
     height: 100%;
 }
