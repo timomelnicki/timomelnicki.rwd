@@ -16,3 +16,8 @@ body {
 .box{
     height: 90vh;
 }
+footer{
+    height: 50vh !important;
+    width: 100%;
+    background-color: gray;
+}
