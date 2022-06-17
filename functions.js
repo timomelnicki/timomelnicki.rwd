@@ -3,6 +3,18 @@ $('.slider').slick({
     dots: true,
   });
 
+  $(document).ready(function(){
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 20) {
+          $(".navbar").css("display" , "flex");
+        }
+
+        else{
+            $(".navbar").css("display" , "none");
+        }
+    })
+  })
   /*var pageHeight = window.innerHeight;
   var isAnimating = false;
   document.body.style.transform = 'translate3d(0px,0px,0px)';
