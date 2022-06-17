@@ -25,3 +25,10 @@ footer{
     color: white;
     background-color: black;
 }
+footer ul{
+    text-decoration: none;
+}
+
+footer ul li{
+    padding: 5px;
+}
