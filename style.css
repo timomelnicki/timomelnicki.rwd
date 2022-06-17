@@ -14,6 +14,10 @@ h3{
     height: 50px;
     margin-top: -70%;
 }
+.navlogo{
+    height: 40px;
+    margin: auto;
+}
 .slider img{
     width: auto;
     height: 100%;
