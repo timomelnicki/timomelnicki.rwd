@@ -3,7 +3,7 @@ $('.slider').slick({
     dots: true,
   });
 
-  var pageHeight = window.innerHeight;
+  /*var pageHeight = window.innerHeight;
   var isAnimating = false;
   document.body.style.transform = 'translate3d(0px,0px,0px)';
   
@@ -43,5 +43,5 @@ $('.slider').slick({
   document.body.addEventListener('transitionend', function(){
     setTimeout(function(){ isAnimating = false; }, 500);
     document.addEventListener('wheel', wheelListener);
-  })
+  })*/
   
