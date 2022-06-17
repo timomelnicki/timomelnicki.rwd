@@ -1,4 +1,5 @@
 $('.slider').slick({
+    slidesToshow: 4,
     arrows: false,
     dots: true,
   });
