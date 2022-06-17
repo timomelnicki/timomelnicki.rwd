@@ -21,6 +21,11 @@ h3{
     height: 40px;
     margin: auto;
 }
+#text{
+    font-size: 24px; 
+    margin-top: 25px; 
+    padding-right: 100px;
+}
 .slider img{
     width: auto;
     height: 100%;
@@ -41,4 +46,29 @@ footer ul{
 
 footer ul li{
     padding: 5px;
+}
+
+@media only screen and (max-width: 1180px) {
+    #pictureRight{
+        margin-left: 25%;
+    }
+  }
+
+@media screen {
+    .container{
+        height: 50vh;
+    }
+
+    .logo{
+        height: 24px;
+        margin-top: -50%;
+    }
+
+    #text{
+        font-size: 14px;
+    }
+
+    img{
+        height: 44vh;
+    }
 }
