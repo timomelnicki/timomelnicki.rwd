@@ -16,6 +16,21 @@ $('.slider').slick({
         }
     })
   })
+
+  var btn = document.getElementById('btnX');
+btn.addEventListener("click", function(){
+  document.getElementById('boxopen').classList.toggle("open-box");
+});
+
+function toggleCLass() {
+   var myBoxClasses = document.getElementsByClassName('boxopen').classList;
+   if (myBoxClasses.contains("box-scale")) {
+       myBoxClasses.remove("box-scale");
+   } else {
+       myBoxClasses.add("box-scale");
+   }
+}
+
   /*var pageHeight = window.innerHeight;
   var isAnimating = false;
   document.body.style.transform = 'translate3d(0px,0px,0px)';
