@@ -37,6 +37,7 @@ h3{
 .navImpressum{
     display: flex;
     list-style: none;
+    text-align: center;
 }
 footer{
     width: 100%;
