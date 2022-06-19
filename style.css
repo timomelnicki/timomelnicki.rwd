@@ -34,6 +34,10 @@ h3{
 .box{
     height: 90vh;
 }
+.navImpressum{
+    display: flex;
+    list-style: none;
+}
 footer{
     width: 100%;
     color: white;
