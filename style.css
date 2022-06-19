@@ -34,10 +34,12 @@ h3{
 .box{
     height: 90vh;
 }
+.impressum{
+    text-align: center;
+}
 .navImpressum{
     display: flex;
     list-style: none;
-    text-align: center;
 }
 footer{
     width: 100%;
