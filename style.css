@@ -63,6 +63,11 @@ footer ul li{
     padding: 5px;
 }
 
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
 @media only screen and (max-width: 1180px) {
     #pictureRight{
         margin-left: 25%;
