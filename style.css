@@ -94,7 +94,7 @@ footer ul li{
     100% { opacity: 1; }
   }
 
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 1199px) {
     #pictureRight{
         margin-left: 25%;
     }
