@@ -32,29 +32,43 @@ h3{
     animation: fadeIn 5s;
     padding: 20px;
 }
+
 .space p{
     font-size: 18px;
 }
+
+.spaceTwo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid black ;
+    border-bottom: 2px solid black;
+}
+
 .slider img{
     width: auto;
     height: 100%;
     margin: auto;
     padding-top: 5%;
 }
+
 .box{
     height: 90vh;
 }
+
 .impressum{
     text-align: center;
 }
+
 .navImpressum{
     list-style: none;
 }
+
 footer{
     width: 100%;
     color: white;
     background-color: black;
 }
+
 footer ul{
     text-decoration: none;
 }
