@@ -28,10 +28,8 @@ h3{
 #crystal:hover{
     transform: scale(1.1);
 }
-#fadeText{
-    animation: fadeIn 5s;
-}
 .space{
+    animation: fadeIn 5s;
     padding: 20px;
 }
 .space p{
@@ -64,11 +62,6 @@ footer ul{
 footer ul li{
     padding: 5px;
 }
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
 
 @media only screen and (max-width: 1180px) {
     #pictureRight{
