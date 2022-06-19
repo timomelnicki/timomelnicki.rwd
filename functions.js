@@ -19,11 +19,11 @@ $('.slider').slick({
 
   var btn = document.getElementById('btnX');
 btn.addEventListener("click", function(){
-  document.getElementById('boxopen').classList.toggle("open-box");
+  document.getElementById('obox').classList.toggle("open-box");
 });
 
 function toggleCLass() {
-   var myBoxClasses = document.getElementsByClassName('boxopen').classList;
+   var myBoxClasses = document.getElementsByClassName('obox').classList;
    if (myBoxClasses.contains("box-scale")) {
        myBoxClasses.remove("box-scale");
    } else {
