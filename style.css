@@ -1,11 +1,14 @@
 body{
     background: #26A247;
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .navbar{
+    position: fixed;
     font-weight: bold;
     font-size: large;
+    font-size: 20px;
     background-color: white;
 }
 
@@ -18,11 +21,52 @@ body{
     padding: 10px;
 }
 
+.containe{
+    padding: 10;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 104px;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.plantimage{
+    background: center;
+    background-repeat: no-repeat;
+    background-image: url(https://images.ctfassets.net/lcr8qbvxj7mh/4fF2yebn9YRa96J1V0nbzg/b62b80be370a284b258be60c42c2d99a/CactusBG_InteractiveProductPage_1600x900_reduced.png);
+}
+
+.sliderimg{
+    margin:5px;
+    height: 512px;
+}
+
 footer{
     background-color: white;
     color: black;
 }
 
-footer .navbar{
+.list a{
+    text-decoration: none;
     color: black;
+    list-style: none;
+}
+
+.list a :hover{
+    text-decoration: none;
+    color: black;
+}
+
+.col-lg-4{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.bar{
+    height: 50px;
 }
