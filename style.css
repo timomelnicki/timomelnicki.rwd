@@ -1,0 +1,28 @@
+body{
+    background: #26A247;
+    color: white;
+}
+
+.navbar{
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+}
+
+.navbar .active{
+    text-decoration: underline 3px;
+    color: red;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+footer{
+    background-color: white;
+    color: black;
+}
+
+footer .navbar{
+    color: black;
+}
