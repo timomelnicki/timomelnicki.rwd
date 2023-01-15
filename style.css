@@ -70,3 +70,23 @@ footer{
 .bar{
     height: 50px;
 }
+
+.aufklapp_titel{
+    width: 95%;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom:-14px;
+  }
+
+  .plus{
+    cursor: pointer;
+    font-size: x-large;
+    transition: transform .5s ease-in-out;
+  }
+
+  .plus:hover{
+    transform: rotate(180deg);
+  }
