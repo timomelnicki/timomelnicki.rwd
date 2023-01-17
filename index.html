@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>website</title>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed; width: 100%;">
           <img class="navlogo" src="https://resources.redbull.com/logos/redbullcom/v3/redbullcom-logo.svg" alt="navLogo">
@@ -59,7 +59,7 @@
               
             </div>
             <div class="col-lg-5">
-              <p style="font-weight: bold;">DATEN & FAKTEN</p> <br>
+              <p style="font-weight: bold; text-decoration: underline red 3px;">DATEN & FAKTEN</p> <br>
               <h2 style="font-size: 60px; font-weight: bolder;">Zutaten</h2> <br>
               <p style="font-size: 24px; color:#f8f8f8;">Die spezielle Wachstumsformel für die perfekte Pflanze enthält wichtige Schritte</p> <br>
               <!--<div style="margin-top: 80px;">
@@ -72,38 +72,45 @@
                 </div> 
                 <div id="produkt_info_div"></div>
               </div>-->
-            <svg xmlns="http://www.w3.org/1900/svg" width="100%" height="1">
-                <line id="Linie_5" data-name="Linie 5" x2="100%" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
-            </svg>
-            <div id="material_div" class="aufklapp_boxen" >
-                <div class="aufklapp_titel">
-                    <p>Pflege</p>
-                    <p class="plus" id="plus_material" style="font-size:large"><strong>+</strong></p>
-                </div> 
-            </div>
-            <svg xmlns="http://www.w3.org/1900/svg" width="100%" height="1">
-                <line id="Linie_5" data-name="Linie 5" x2="100%" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
-            </svg>
-            <div id="geschenk_div" class="aufklapp_boxen">
-                <div class="aufklapp_titel">
-                    <p>Qualität</p>
-                    <p class="plus" id="plus_geschenk" style="font-size:large"><strong>+</strong></p>
-                </div>  
-            </div>
-            <svg xmlns="http://www.w3.org/1900/svg" width="100%" height="1">
-                <line id="Linie_5" data-name="Linie 5" x2="100%" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
-            </svg>  
-            <div id="zahlen_div" class="aufklapp_boxen">
-                <div class="aufklapp_titel">
-                    <p>Wetterbeständigkeit</p>
-                    <p class="plus" id="plus_zahlen" style="font-size:large"><strong>+</strong></p>
-                </div>  
-            </div>
-            <svg xmlns="http://www.w3.org/1900/svg" width="100%" height="1">
-                <line id="Linie_5" data-name="Linie 5" x2="100%" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
-            </svg>   
-            <button style="background-color: white; border-radius: 5px;">
-              <a href="#" style="text-decoration: none; color: #26A247;">Mehr über die Pflanzen</a>
+              <div class="dropdowntexte" style="color: white;">
+                <svg xmlns="http://www.w3.org/1900/svg" width="100%" height="1">
+                    <line id="Linie_5" data-name="Linie 5" x2="100%" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
+                </svg>
+                <div id="pflege_div" class="aufklapp_boxen" >
+                    <div class="aufklapp_titel">
+                        <h3>Pflege</h3>
+                        <p class="plus" id="plus_pflege" style="font-size:large"><strong>+</strong></p>
+                    </div> 
+                </div>
+                <br>
+                <svg xmlns="http://www.w3.org/1900/svg" width="100%" height="1">
+                    <line id="Linie_5" data-name="Linie 5" x2="100%" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
+                </svg>
+                <br>
+                <div id="qualitaet_div" class="aufklapp_boxen">
+                    <div class="aufklapp_titel">
+                        <h3>Qualität</h3>
+                        <p class="plus" id="plus_qualitaet" style="font-size:large"><strong>+</strong></p>
+                    </div>  
+                </div>
+                <br>
+                <svg xmlns="http://www.w3.org/1900/svg" width="100%" height="1">
+                    <line id="Linie_5" data-name="Linie 5" x2="100%" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
+                </svg>  
+                <div id="zahlen_div" class="aufklapp_boxen">
+                    <div class="aufklapp_titel">
+                        <h3>Wetterbeständigkeit</h3>
+                        <p class="plus" id="plus_zahlen" style="font-size:large"><strong>+</strong></p>
+                    </div>  
+                </div>
+                <br>
+                <svg xmlns="http://www.w3.org/1900/svg" width="100%" height="1">
+                    <line id="Linie_5" data-name="Linie 5" x2="100%" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
+                </svg>  
+              </div> 
+              <br>
+            <button style="background-color: white; border-radius: 5px; border-color: black; padding: 10px;">
+              <a href="#" style="text-decoration: none; font-size: 18px; font-weight: bold; color: #26A247; padding: 10px;">Mehr über die Pflanzen</a>
             </button>
           </div>
             <br>
