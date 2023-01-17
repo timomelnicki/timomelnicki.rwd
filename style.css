@@ -40,6 +40,10 @@ h3{
     font-size: 32px;
 }
 
+.grayhover:hover{
+    opacity: 0.7;
+}
+
 .plantimage{
     background: center;
     background-repeat: no-repeat;
