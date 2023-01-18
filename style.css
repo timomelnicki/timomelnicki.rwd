@@ -173,8 +173,8 @@ footer li :hover{
         font-size: 32px;
     }
     .plant{
-        margin-top: auto;
-        margin-left: auto;
+        margin-top: -388px;
+        margin-left: 230px;
         max-width: 512px;
         max-height: 512px;
     }
@@ -189,15 +189,20 @@ footer li :hover{
 
   @media screen and (max-width: 768px){
     .plant{
-        margin-top: auto;
+        margin-top: -100px;
         margin-left: auto;
-        max-width: 256px;
-        max-height: 256px;
+        max-width: 384px;
+        max-height: 384px;
+        
     }
     .rowone{
         height: 50vh !important;
         padding-top: 80px;
     }
+  }
+
+  @media screen and (max-width: px){
+
   }
 
   @media screen and (max-width: 460px){
