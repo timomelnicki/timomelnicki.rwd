@@ -7,6 +7,33 @@ $('.slider').slick({
   slidesToShow: 1,
 });
 
+var offset = $(".square-1").offset();
+$(window).scroll(function(event) {
+  var st = $(this).scrollTop();
+  $(".square-1").css("right", st + offset.right);
+});
+
+/*var container = document.getElementById('plantimage');
+var windowHeight = window.innerHeight;
+var windowWidth = window.innerWidth*0.6;
+var scrollArea = 10 - windowHeight;
+var square1 = document.getElementsByClassName('square')[0];
+var square2 = document.getElementsByClassName('square')[1];
+
+// update position of square 1 and square 2 when scroll event fires.
+window.addEventListener('scroll', movediv);
+
+function movediv(){
+  var scrollTop = window.pageYOffset || window.scrollTop;
+  var scrollPercent = scrollTop/scrollArea || 0;
+
+  square1.style.left = scrollPercent*window.innerWidth + 'px';
+  square2.style.left = 600 - scrollPercent*window.innerWidth*0.6 + 'px';
+}
+
+if( document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
+  window.removeEventListener('scroll',movediv);
+  }*/
 /*  $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
