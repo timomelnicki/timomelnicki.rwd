@@ -56,6 +56,7 @@ h3{
     margin-top: -100px; 
     margin-left: -100%;
     max-height: 600px;
+    animation: fadeInRight 2s ease-in-out;
 }
 
 .sliderimg{
@@ -122,6 +123,17 @@ footer{
     }
     to { opacity: 1 }
 }
+
+.fadeInRight{ animation-name: fadeInRight;}
+@keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(2000px);
+    }
+    to {
+      opacity: 1;
+    }
+  }
 
 footer li{
     margin-bottom: -20px;
