@@ -46,7 +46,7 @@ h3{
 }
 
 .plantimage{
-    background: left;
+    background: center;
     background-repeat: no-repeat;
     background-image: url(https://images.ctfassets.net/lcr8qbvxj7mh/4fF2yebn9YRa96J1V0nbzg/b62b80be370a284b258be60c42c2d99a/CactusBG_InteractiveProductPage_1600x900_reduced.png);
 }
@@ -174,4 +174,5 @@ footer li :hover{
     .text{
         font-size: 24px;
     }
+
   }
