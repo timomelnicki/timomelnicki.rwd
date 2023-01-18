@@ -46,9 +46,15 @@ h3{
 }
 
 .plantimage{
-    background: center;
+    position: relative;
+    background: left;
     background-repeat: no-repeat;
     background-image: url(https://images.ctfassets.net/lcr8qbvxj7mh/4fF2yebn9YRa96J1V0nbzg/b62b80be370a284b258be60c42c2d99a/CactusBG_InteractiveProductPage_1600x900_reduced.png);
+}
+
+.plant{
+    margin-top: -200px; 
+    margin-left: -100%;
 }
 
 .sliderimg{
@@ -160,7 +166,16 @@ footer li :hover{
   }
 
   @media screen and (max-width: 768px){
-    
+    .plant{
+        margin-top: auto;
+        margin-left: auto;
+        max-width: 256px;
+        max-height: 256px;
+    }
+    .rowone{
+        height: 50vh !important;
+        padding-top: 80px;
+    }
   }
 
   @media screen and (max-width: 460px){
