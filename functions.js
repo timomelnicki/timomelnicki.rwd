@@ -1,3 +1,23 @@
+window.addEventListener('scroll', reveal);
+
+function reveal(){
+  var reveals = document.querySelectorAll('.reveal');
+
+  for (var i = 0;i < reveals.length; i++){
+
+    var windowHeight = window.innerHeight;
+    var revealtop = reveals[i].getBoundingClientRect().top;
+    var revealpoint = 150
+
+    if(revealtop < windowHeight - revealpoint){
+      reveals[i].classList.add('active');
+    }
+    else{
+      reveals[i].classList.remove('active');
+    }
+  }
+}
+
 $('.slider').slick({
   arrows: false,
   dots: true,
@@ -7,11 +27,13 @@ $('.slider').slick({
   slidesToShow: 1,
 });
 
-var offset = $(".square-1").offset();
-$(window).scroll(function(event) {
-  var st = $(this).scrollTop();
-  $(".square-1").css("right", st + offset.right);
-});
+
+
+// var offset = $(".square-1").offset();
+// $(window).scroll(function(event) {
+//   var st = $(this).scrollTop();
+//   $(".square-1").css("right", st + offset.right);
+// });
 
 /*var container = document.getElementById('plantimage');
 var windowHeight = window.innerHeight;
