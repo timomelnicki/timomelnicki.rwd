@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <title>website</title>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed; width: 100%;">
-          <img class="navlogo" src="https://resources.redbull.com/logos/redbullcom/v3/redbullcom-logo.svg" alt="navLogo">
+          <img class="navlogo" src="https://resources.redbull.com/logos/redbullcom/v3/redbullcom-logo.svg" alt="navLogo" style="margin-left: 50px;">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -44,9 +44,11 @@
     <script src="https://threejs.org/examples/js/loaders/GLTFLoader.js"></script>
     <script src="scene.js"></script>
     <script>const loader = new THREE.GLTFLoader();</script>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
     <header>
     </header>
     <main>
+      <section>
         <div class="container plantimage">
             <div class="row rowone" style="height: 100vh;">
               <div class="col-lg-6 cssanimation sequence fadeInBottom" style="margin: auto;">
@@ -56,14 +58,33 @@
                 </div>
               </div>
               <div class="col-lg-6" style="margin: auto; text-align: end;">
-                <img class="plant fadeInRight" src="images/pngwing.com.png" alt="">
+                <img class="plant fadeInRight" src="images/pngwing.com.png" alt="" style="max-width: 100%;">
               </div>
             </div>
         </div>
-        <div class="container information">
+      </section>
+        <!--<a-scene renderer="colorManagement: true;" info-message="htmlSrc: #messageText" model-viewer="gltfModel: #mainplant; title: mainplant">
+          <a-assets>
+              Kommentare
+              Model source: https://sketchfab.com/3d-models/triceratops-d16aabe33dc24f8ab37e3df50c068265
+              Model author: https://sketchfab.com/VapTor
+              Model license: Sketcfab Standard
+           
+            <a-asset-item id="mainplant" src="3D/plant.glb" response-type="arraybuffer" crossorigin="anonymous"></a-asset-item>
+
+            <a-asset-item id="reticle"
+              src="https://cdn.aframe.io/examples/ar/models/reticle/reticle.gltf"
+              response-type="arraybuffer" crossorigin="anonymous"></a-asset-item>
+
+            <img id="shadow" src="https://cdn.glitch.com/20600112-c04b-492c-8190-8a5ccc06f37d%2Fshadow.png?v=1606338852399"></img>
+            <a-asset-item id="messageText" src="message.html"></a-asset-item>
+          </a-assets>
+        </a-scene>-->
+        <section>
+        <div class="container information reveal">
           <div class="row" style="height: 100vh;">
             <div class="col-lg-5">
-              <img src="images/sunflower.png" alt="">
+              <img src="images/sunflower.png" alt="" style="max-width: 100%;">
             </div>
             <div class="col-lg-5">
               <p style="font-weight: bold; text-decoration: underline red 3px;">DATEN & FAKTEN</p> <br>
@@ -79,6 +100,7 @@
                 </div> 
                 <div id="produkt_info_div"></div>
               </div> -->
+              <br>
               <div class="dropdowntexte" style="color: white;">
                 <svg xmlns="http://www.w3.org/1900/svg" width="100%" height="1">
                     <line id="Linie_5" data-name="Linie 5" x2="100%" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
@@ -123,99 +145,60 @@
             <br>
             </div>
           </div>
-        </div>  
-        <h2 style="text-align: center; font-size: 60px; font-weight: bold;">Weitere Pflanzen von Red Bull</h2>
+        </section>
         <br>
-        <div class="container" style="margin: auto;">
-          <div class="slider">
-            <div class="sliderimg">
-              <img src="https://images.squarespace-cdn.com/content/v1/5351f0d4e4b086059ff86dc6/1636325586163-8A1T4XZALK8QB50VFV1F/Website+background.png?format=2500w" alt="">
-            </div>
-            <div class="sliderimg">
-              <img src="https://shinyplant.com/wp-content/uploads/2022/08/Elephant-ear-plant-leaves-turning-yellow.webp" alt="">
-            </div>
-            <div class="sliderimg"> 
-              <img src="https://plantlife.ie/wp-content/uploads/2019/08/website1.jpg" alt="">
-            </div>
-            <div class="sliderimg"> 
-              <img src="https://www.photos-public-domain.com/wp-content/uploads/2017/08/hens-and-chicks-succulent-plants.jpg" alt="">
-            </div>
-            <div class="sliderimg"> 
-              <img src="https://www.fossanalytics.com/-/media/images/segments/plant-based/plant-based-top-image-1480x550.jpg" alt="">
-            </div>
-            <div class="sliderimg"> 
-              <img src="https://cms.bbcearth.com/sites/default/files/2022-02/Sunflower1.jpg" alt="">
+        <section>
+          <div class="container slidercontainer reveal" style="margin: auto;">
+            <h2 style="text-align: center; font-size: 60px; font-weight: bold;">Weitere Pflanzen von Red Bull</h2>
+            <br>
+            <br>
+            <div class="slider">
+              <div class="sliderimg">
+                <img src="https://images.squarespace-cdn.com/content/v1/5351f0d4e4b086059ff86dc6/1636325586163-8A1T4XZALK8QB50VFV1F/Website+background.png?format=2500w" alt="">
+              </div>
+              <div class="sliderimg">
+                <img src="https://shinyplant.com/wp-content/uploads/2022/08/Elephant-ear-plant-leaves-turning-yellow.webp" alt="">
+              </div>
+              <div class="sliderimg"> 
+                <img src="https://plantlife.ie/wp-content/uploads/2019/08/website1.jpg" alt="">
+              </div>
+              <div class="sliderimg"> 
+                <img src="https://www.photos-public-domain.com/wp-content/uploads/2017/08/hens-and-chicks-succulent-plants.jpg" alt="">
+              </div>
+              <div class="sliderimg"> 
+                <img src="https://www.fossanalytics.com/-/media/images/segments/plant-based/plant-based-top-image-1480x550.jpg" alt="">
+              </div>
+              <div class="sliderimg"> 
+                <img src="https://cms.bbcearth.com/sites/default/files/2022-02/Sunflower1.jpg" alt="">
+              </div>
             </div>
           </div>
+        </section>
+        <section>
+          <div class="container halfhalf reveal">
+            <div class="row" style="height: 100vh;">
+              <div class="col-lg-6 cssanimation sequence fadeInBottom" style="margin: auto;">
+                <h2 style="font-size: 60px; font-weight: bold;">Jede Pflanze <br> Rettet Leben </h2>
+                <br>
+                <div class="texthalf">  
+                  <p style="font-size: 24px;">Wir von Red Bull sind uns unserer Verantwortung für unsere Umwelt sehr bewusst. Hier kannst Du mehr zu unserem nachhaltigen Ansatz lesen:</p>
+                </div>
+                <br>
+                <button class="grayhover" style="background-color: white; border-radius: 5px; border: black 2px; padding: 10px; color: #26A247; font-size: 18px; font-weight: bold;">Red Bull plants Plants</button>
+                <button style="width: 150px;  background-color: #26A247; border-radius: 5px; border-color: white 2px; padding: 10px; color: white; font-size: 18px; font-weight: bold;">Quiz</button>
+              </div>
+              <div class="col-lg-6" style="margin: auto;">
+                <div class="imghalf">
+                  <img src="http://www.wallpapermania.eu/images/lthumbs/2015-06/7826_Bean-plant-out-of-the-ground-Plants-wallpaper.jpg" alt="" style="width: 100%;">
+                </div>
+              </div>
+            </div>
         </div>
-        <div class="container halfhalf">
-          <div class="row" style="height: 100vh;">
-            <div class="col-lg-6 cssanimation sequence fadeInBottom" style="margin: auto;">
-              <h2 style="font-size: 60px; font-weight: bold;">Jede Pflanze <br> Rettet Leben </h2>
-              <br>
-              <div class="texthalf">  
-                <p style="font-size: 24px;">Wir von Red Bull sind uns unserer Verantwortung für unsere Umwelt sehr bewusst. Hier kannst Du mehr zu unserem nachhaltigen Ansatz lesen:</p>
-              </div>
-              <br>
-              <button class="grayhover" style="background-color: white; border-radius: 5px; border: black 2px; padding: 10px; color: #26A247; font-size: 18px; font-weight: bold;">Red Bull plants Plants</button>
-              <button style="width: 150px;  background-color: #26A247; border-radius: 5px; border-color: white 2px; padding: 10px; color: white; font-size: 18px; font-weight: bold;">Quiz</button>
-            </div>
-            <div class="col-lg-6" style="margin: auto;">
-              <div class="imghalf">
-                <img src="http://www.wallpapermania.eu/images/lthumbs/2015-06/7826_Bean-plant-out-of-the-ground-Plants-wallpaper.jpg" alt="">
-              </div>
-            </div>
-          </div>
-      </div>
-      <!--<div style="margin-top: 80px;">
-          <svg xmlns="http://www.w3.org/1900/svg" width="100%" height="1">
-              <line id="Linie_5" data-name="Linie 5" x2="100%" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
-          </svg>
-        <div id="produkt_div" class="aufklapp_boxen" >
-          <div class="aufklapp_titel">
-              <p>PRODUKTINFORMATION</p>
-          </div> 
-          <div id="produkt_info_div"></div>
-      </div>
-      <svg xmlns="http://www.w3.org/1900/svg" width="100%" height="1">
-          <line id="Linie_5" data-name="Linie 5" x2="100%" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
-      </svg>
-      <div id="material_div" class="aufklapp_boxen" >
-          <div class="aufklapp_titel">
-              <p>MATERIAL UND PFLEGE</p>
-              <p class="plus" id="plus_material" style="font-size:large"><strong>+</strong></p>
-          </div> 
-      </div>
-      <svg xmlns="http://www.w3.org/1900/svg" width="100%" height="1">
-          <line id="Linie_5" data-name="Linie 5" x2="100%" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
-      </svg>
-      <div id="geschenk_div" class="aufklapp_boxen">
-          <div class="aufklapp_titel">
-              <p>GESCHENKVERPACKUNG</p>
-              <p class="plus" id="plus_geschenk" style="font-size:large"><strong>+</strong></p>
-          </div>  
-      </div>
-      <svg xmlns="http://www.w3.org/1900/svg" width="100%" height="1">
-          <line id="Linie_5" data-name="Linie 5" x2="100%" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
-      </svg>  
-      <div id="zahlen_div" class="aufklapp_boxen">
-          <div class="aufklapp_titel">
-              <p>ZAHLUNGSOPTIONEN</p>
-              <p class="plus" id="plus_zahlen" style="font-size:large"><strong>+</strong></p>
-          </div>  
-      </div>
-      <svg xmlns="http://www.w3.org/1900/svg" width="100%" height="1">
-          <line id="Linie_5" data-name="Linie 5" x2="100%" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
-      </svg>   
-    </div>-->
-  
-      <!-- <div class="square square-1">
-        <img src="data:image/jpeg;base64,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" alt="">
-      <div class="square square-2"></div> -->
+      </section>
     </div>
     </main>
     <footer>
-      <div class="container">
+      <div class="container reveal">
         <div class="row">
           <div class="col-lg-4">
               <ul class="list" style="margin: auto;">
