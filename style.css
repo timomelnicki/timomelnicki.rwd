@@ -232,6 +232,20 @@ footer li :hover{
     .slidercontainer{
         padding-top: 60%;
     }
+    .aufklapp_boxen{
+        width:90%;
+      }
+  
+      .aufklapp_boxen{
+        margin-right: 100px;
+      }
+  
+      #versand_div img{
+        margin-top: 10px;
+        margin-left: 50px;
+        text-align: left;
+        width: 500px
+      }
   }
 
   @media screen and (max-width: 768px){
@@ -255,6 +269,21 @@ footer li :hover{
     .slidercontainer{
         padding-top: 80%;
     }
+    .aufklapp_boxen{
+        margin-right: 30px;
+      }
+  
+  
+      #versand_div img{
+        margin-top: 10px;
+        margin-left: 50px;
+        text-align: left;
+        width: 400px;
+      }
+  
+      #produkt_info_div img{
+        width: 150px;
+      }
   }
 
   @media screen and (max-width: 460px){
