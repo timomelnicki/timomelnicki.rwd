@@ -209,6 +209,15 @@ footer li :hover{
     height: 1000px;
   }
 
+  @media screen and (max-width: 1400px){
+    .navbar{
+        height: fit-content;
+    }
+    h1{
+        font-size: 70px;
+    }
+  }
+
   @media screen and (max-width: 1000px){
     h1{
         font-size: 50px;
@@ -216,12 +225,12 @@ footer li :hover{
     .text{
         font-size: 32px;
     }
-    .plant{
+    /* .plant{
         margin-top: -388px;
         margin-left: 230px;
         max-width: 512px;
         max-height: 512px;
-    }
+    } */
     .rowone{
         height: 50vh !important;
         padding-top: 80px;
@@ -249,17 +258,17 @@ footer li :hover{
   }
 
   @media screen and (max-width: 768px){
-    .plant{
+    /* .plant{
         margin-top: -100px;
         margin-left: auto;
         max-width: 384px;
         max-height: 384px;
         
-    }
-    .rowone{
+    } */
+    /* .rowone{
         height: 50vh !important;
         padding-top: 80px;
-    }
+    } */
     .slidercontainer{
         padding-top: 70%;
     }
