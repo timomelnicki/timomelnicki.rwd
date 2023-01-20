@@ -213,7 +213,7 @@ footer li :hover{
     height: 1000px;
   }
 
-  @media screen and (max-width: 1400px){
+  @media screen and (max-width: 1550px){
     .navbar{
         height: 50px;
     }
