@@ -23,6 +23,10 @@ body{
     padding: 10px;
 }
 
+.icon :hover{
+    background-color: lightgray;
+}
+
 .containe{
     padding: 10;
 }
@@ -211,7 +215,7 @@ footer li :hover{
 
   @media screen and (max-width: 1400px){
     .navbar{
-        height: fit-content;
+        height: 50px;
     }
     h1{
         font-size: 70px;
