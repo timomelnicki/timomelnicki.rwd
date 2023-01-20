@@ -229,6 +229,9 @@ footer li :hover{
     .text{
         font-size: 32px;
     }
+    .slidercontainer h2{
+        font-size: 50px;
+    }
     /* .plant{
         margin-top: -388px;
         margin-left: 230px;
