@@ -261,6 +261,12 @@ footer li :hover{
       }
   }
 
+  @media screen and (max-width: 860px){
+    .space{
+        display: block;
+    }
+  }
+
   @media screen and (max-width: 768px){
     /* .plant{
         margin-top: -100px;
