@@ -264,11 +264,11 @@ footer li :hover{
       }
   }
 
-  @media screen and (max-width: 860px){
-    .space{
+  /* @media screen and (max-width: 860px){
+    .spaceone{
         display: block;
     }
-  }
+  } */
 
   @media screen and (max-width: 768px){
     /* .plant{
@@ -305,6 +305,9 @@ footer li :hover{
   
       #produkt_info_div img{
         width: 150px;
+      }
+      .plantimage{
+        height: 60vh;
       }
   }
 
